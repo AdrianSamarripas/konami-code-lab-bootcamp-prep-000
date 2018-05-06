@@ -14,7 +14,7 @@ document.body.addEventListener('keydown',function(e){
   }
   
   if (index === code.length){
-    alert("Hurray!");
+    alert("Wake me up... I can't wake up!");
     index = 0;
   }
 });
