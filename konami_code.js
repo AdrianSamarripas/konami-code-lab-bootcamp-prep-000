@@ -7,16 +7,17 @@ function init() {
 document.body.addEventListener('keydown', function(e){
   var key = parseInt(e.detail || e.which);
   
-  if (key === code[index]){
-    index++;
-  }else{
-    index = 0;
-  }
-  
-  if (index === code.length){
-    alert("Wake me up... I can't wake up!");
-    index = 0;
-  }
+   if (code[index] === key) {
+      index++;
+
+      if (index === code.length) {
+        alert('Hurray!');
+
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
 });
   
 }
