@@ -3,7 +3,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 function init() {
 const keyevent = document.querySelector('input');
 
-keyevent.addEventListener('keydown',function(e))
+keyevent.addEventListener('keydown',function onKeydown(e))
 
 
 
