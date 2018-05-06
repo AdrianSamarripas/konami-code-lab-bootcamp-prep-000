@@ -4,7 +4,7 @@ function init() {
 const keyevent = document.querySelector('input');
 let index = 0;
 
-keyevent.addEventListener('keydown',function onKeydown(e){
+keyevent.addEventListener('keydown',function(e){
   const key = parseInt(e.detail || e.which);
 });
   if (key === code[index]){
