@@ -6,7 +6,7 @@ let index = 0;
 
 keyevent.addEventListener('keydown',function onKeydown(e){
   const key = parseInt(e.detail || e.which);
-
+});
   if (key === code[index]){
     index++;
   }else{
@@ -17,6 +17,4 @@ keyevent.addEventListener('keydown',function onKeydown(e){
     alert("Hurray!");
     index = 0;
   }
-  
-  });
 }
